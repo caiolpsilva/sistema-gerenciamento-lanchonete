@@ -28,9 +28,9 @@ public class ConsoleMenu {
                     case 3 -> criarPedido();
                     case 4 -> adicionarItem();
                     case 5 -> finalizarPedido();
-                    case 7 -> atualizarProduto();
-                    case 8 -> removerProduto();
-                    case 6 -> {
+                    case 6 -> atualizarProduto();
+                    case 7 -> removerProduto();
+                    case 8 -> {
                         System.out.println("\nObrigado por usar a Lanchonete! Até logo!");
                         return;
                     }
@@ -50,9 +50,9 @@ public class ConsoleMenu {
         System.out.println("3. Criar novo pedido");
         System.out.println("4. Adicionar item ao pedido");
         System.out.println("5. Finalizar pedido");
-        System.out.println("7. Atualizar produto");
-        System.out.println("8. Remover produto");
-        System.out.println("6. Sair");
+        System.out.println("6. Atualizar produto");
+        System.out.println("7. Remover produto");
+        System.out.println("8. Sair");
         System.out.print("Escolha uma opção: ");
     }
 
